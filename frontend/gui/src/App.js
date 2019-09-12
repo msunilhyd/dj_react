@@ -5,6 +5,8 @@ import ArticleList from './containers/ArticleListView';
 import BaseRouter from './routes';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+// kill $(lsof -t -i:8000) 
+
 class App extends Component {
   render() {
     return (
